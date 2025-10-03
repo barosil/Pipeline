@@ -1,7 +1,7 @@
 import pytest
 
-from project_name.apps import MyAppDROP
-from project_name.data import  MyDataDROP
+from pipeline.apps import MyAppDROP
+from pipeline.data import  MyDataDROP
 
 given = pytest.mark.parametrize
 
